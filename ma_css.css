@@ -1,0 +1,157 @@
+
+body{
+    width: 0%;
+    margin: auto;
+    color: white;
+}  
+nav{
+    display:inline-block;
+    width: 80%;
+    color:gray;
+    text-transform: uppercase; 
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+nav li {
+    display: inline-block;
+    text-decoration:none;
+    margin-right: 5%;   
+}
+
+nav li:first-child{
+    color:#46bae2;
+    font-size: 20px;
+}
+nav:hover{
+    background-color: #f2745f;
+
+}
+#text_centre{
+    text-align: center;
+    
+}
+#banner{
+   background-image: url(banner.jpeg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   height: 70vh;
+}
+#banner>h6{
+    margin: 0;
+    font-size: 20px;
+}
+#banner>h2{
+    font-size: 60px;
+}
+#intro{
+    background-color: #46bae2;
+    height: 50vh;
+}
+.box{
+    display: inline-block;
+    width: 200px;
+    padding :7px;
+    margin-right: 2%;
+}
+#bluebox{
+background-color: rgba(70, 186,226);
+}
+
+#redbox{
+background-color: rgba(242, 116,95);
+}
+#incolorebox{
+border: 2px solid white;
+} 
+.icones{
+    width: 70px;
+    height: 70px;
+}
+.icones:hover{
+    transform: rotate(25deg);
+}
+#services{
+    background-image:url(bg.jfif);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 40vh;
+}
+#service1,#service2,#service3{
+    width: 33.33%;
+}
+#service1{
+    background-color: rgba(242, 116,95, 0.8);
+}
+#service2{
+    background-color: rgba(54,62,80, 0.8);
+}
+#service3{
+    background-color: rgba(70, 186,226,0.8);
+}
+#CRM{
+    background-color: rgba(54,62,80,0.75);
+    width: 60%;
+    height: 30vh;
+    padding:2%;
+    font-size: 15px;
+    margin: auto;
+
+}
+#CRM p {
+    margin-left: 5px;
+}
+#img_gauche{
+    background-color: #f2f2f2;
+    float: left;
+    margin-right:7px;
+    box-shadow: 2px 2px 2px white;
+}
+#img_gauche:hover{
+    transform: scale(1.5);
+}
+#formulaire{
+    width:50%;
+    background-color:rgba(0,0,0,0.03);
+    align-content: center; /*CENTRé dans la page*/
+    color:#7a7a7a;
+    font-size: 15px;
+    margin: auto;
+}
+input{
+    box-sizing: border-box;
+    width: 80%;
+    padding: 3% ;
+    margin: 2%;
+    background-color: rgb(216, 203, 203);
+}
+
+footer{
+    background-color: rgba(54,62,80,0.75);
+    display:inline-flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20vh;
+    margin: auto;
+}
+footer p {
+    text-align: center;
+    width: 33.33%;
+    margin-right:2% ;
+    margin-left: 3%;}   
+footer p ul li{
+    display: block;
+    text-decoration:none;
+}
+fieldset{
+    border: none;
+    width: 90%;
+    margin: auto;
+    padding :auto;
+    padding-left: 10px;
+}
+input{
+    border: none;
+}
